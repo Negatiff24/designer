@@ -1,0 +1,41 @@
+.header__center {
+    font-size: 30px;
+}
+
+.hero__title {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.hero__link, .hero__text {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__link {
+    width: 10%;
+    font-size: 20px;
+    border-right: 2px solid black;
+    transition: 0.2s linear;
+}
+
+.hero__link:hover {
+    color: #ffd7f8;
+    background: black;
+}
+
+.hero__text {
+    width: 60%;
+    font-size: 35px;    
+}
+
+.about__title {
+    font-size: 30px;
+}
+
+.about__text {
+    font-size: 19px;
+}
