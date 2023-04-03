@@ -1,11 +1,15 @@
+@font-face {
+    font-family: 'Montserrat Alternates';
+    src: url('../fonts/MontserratAlternates-Regular.ttf');
+}
+
 body, h1, h2, h3, h4, p, ul, ol, li {
     margin: 0;
-    font-family: "Helvetica";
+    font-family: "Montserrat Alternates";
 }
 
 body {
     min-height: 100vh;
-    background-color: #ffd7f8;
 }
 
 * {

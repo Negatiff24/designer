@@ -1,5 +1,6 @@
 .section {
     min-height: 100vh;
+    background-color: var(--sakura);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +10,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.section.-works {
+    background: linear-gradient(var(--sakura), 30%, var(--dark_grey));
+}
+
+.section.-process {
+    background-color: var(--dark_grey);
 }
 
 .hero__center {
@@ -40,7 +49,7 @@
     border-right: 2px solid black;
     transform: rotate(45deg);
     bottom: 20px;
-    left: 61.5px;
+    left: 80px;
 }
 
 .about__content {
@@ -67,4 +76,95 @@
     width: 400px;
     height: 400px;
     margin: auto 0;
+}
+
+.works__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.works__title {
+    margin-bottom: 100px;
+}
+
+.works__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.works__pick {
+    width: 40%;
+    position: relative;
+}
+
+.works__gif {
+    position: absolute;
+    width: 200px;
+}
+
+.works__gif.-scknd {
+    top: 40px;
+    left: 40px;
+}
+
+.works__gif.-thrd {
+    top: 60px;
+    left: 100px;
+}
+
+.works__gif.-frth {
+    top: 80px;
+    left: 160px;
+}
+
+.works__gif.-ffth {
+    top: 100px;
+    left: 220px;
+}
+
+.works__gif.-sxth {
+    top: 120px;
+    left: 280px;
+}
+
+.works__gif.-svnth {
+    top: 180px;
+    left: 340px;
+}
+
+.works__gif.-ghth {
+    top: 260px;
+    left: 360px;
+}
+
+.works__text {
+    width: 40%;
+}
+
+.process__content {
+    margin-bottom: 40px;
+}
+
+.process__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.process__card {
+    width: 33%;
+    padding: 5px;
+    transition: 0.2s linear;
+    text-shadow: 1px 1px var(--sakura);
+}
+
+.process__card:hover {
+    background: var(--sakura);
+    box-shadow: 0px 0px 5px var(--sakura);
+}
+
+.process__gif {
+    width: 100%;
+    padding-top: 5px;
 }

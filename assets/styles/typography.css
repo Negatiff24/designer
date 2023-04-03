@@ -39,3 +39,34 @@
 .about__text {
     font-size: 19px;
 }
+
+.works__title {
+    font-size: 30px;
+}
+
+.works__text {
+    font-size: 19px;
+    color: var(--sakura);
+    text-shadow: 5px 5px var(--dark_grey);
+}
+
+.process__title {
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 20px;
+    transition: 0.2s linear;
+    text-shadow: 1px 1px var(--sakura);
+}
+
+.process__title:hover {
+    background: var(--sakura);
+    box-shadow: 0px 0px 5px var(--sakura);
+}
+
+.process__text {
+    font-size: 21px;
+    text-align: justify;
+    transition: 0.2s linear;
+    text-shadow: 1px 1px var(--sakura);
+}
