@@ -34,6 +34,14 @@
     height: 500px;
 }
 
+.hero__text {
+    background-image: url(../img/stars-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+    background-size: cover;
+}
+
 .scrolldown {
     padding-bottom: 40px;
     position: relative;
@@ -167,4 +175,113 @@
 .process__gif {
     width: 100%;
     padding-top: 5px;
+}
+
+.section.-servises {
+    display: block;
+    background-color: var(--dark_grey);
+}
+
+@media screen and (max-width: 1050px) {
+	.section.-works {
+        background: linear-gradient(var(--sakura), 20%, var(--dark_grey));
+    }
+    
+    .hero__nav {
+        flex-direction: column;
+    }
+
+    .hero__nav {
+        height: auto;
+        border-top: 2px solid black;
+    }
+
+    .about__title, .about__text {
+        margin-bottom: 10px;
+    }
+
+    .about__content {
+        margin-bottom: 20px;
+    }
+    
+    .about__info {
+        flex-direction: column;
+    }
+    .about__text, .about__gif
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    .works__title {
+        margin-bottom: 100px;
+    }
+
+    .works__content {
+        margin-bottom: 100px;
+    }
+
+    .works__pick {
+        width: 115px;
+    }
+
+    .works__gif {
+        position: absolute;
+        width: 100px;
+    }
+
+    .works__gif.-frst {
+        top: -120px;
+        left: 5px;
+    }
+    
+    .works__gif.-scknd {
+        top: -18px;
+        left: 5px;
+    }
+    
+    .works__gif.-thrd {
+        top: 84px;
+        left: 7px;
+    }
+    
+    .works__gif.-frth {
+        top: 186px;
+        left: 8px;
+    }
+    
+    .works__gif.-ffth {
+        top: 288px;
+        left: 5px;
+    }
+    
+    .works__gif.-sxth {
+        top: 390px;
+        left: 7px;
+    }
+    
+    .works__gif.-svnth {
+        top: 492px;
+        left: 8px;
+    }
+    
+    .works__gif.-ghth {
+        top: 600px;
+        left: 10px;
+    }
+
+    .works__text {
+        width: 90%;
+    }
+
+    .process__info {
+        flex-wrap: wrap;
+    }
+
+    .process__card {
+        width: 100%;
+        margin-bottom: 10px;
+        background: var(--sakura);
+        box-shadow: 0px 0px 5px var(--sakura);
+    }
 }
