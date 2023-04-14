@@ -1,11 +1,16 @@
 .servises__sky {
     margin-top: 100px;
+    display: flex;
 }
 
 .sky__eclipse {
     height: 300px;
     width: 300px;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 90px;
     margin: 0 auto;
+    color: var(--sakura);
     background-color: black;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px var(--sakura);
@@ -38,6 +43,11 @@
     transform: rotate(-22.5deg) skewX(45deg) scaleY(cos(45deg));
 }
 
+.sky__star.-l {
+    height: 25px;
+    width: 25px;
+}
+
 .sky__star.-l::before {
     height: 25px;
     width: 25px;
@@ -46,6 +56,11 @@
 .sky__star.-l::after {
     height: 25px;
     width: 25px;
+}
+
+.sky__star._s {
+    height: 16px;
+    width: 16px;
 }
 
 .sky__star.-s::before {
@@ -60,45 +75,68 @@
 
 .sky__star.-first {
     left: -100px;
+    top: -190px;
 }
 
 .sky__star.-second {
     right: -330px;
-    bottom: -200px;
+    bottom: -10px;
 }
 
 .sky__star.-third {
     left: -50px;
-    bottom: -225px;
+    bottom: -35px;
 }
 
 .sky__star.-fourth {
     right: -340px;
-    bottom: 20px;
+    bottom: 210px;
 }
 
 .sky__star.-fifth {
     right: -220px;
-    bottom: -250px;
+    bottom: -70px;
 }
 
 .sky__star.-six {
     left: -60px;
-    bottom: 20px;
+    bottom: 190px;
 }
 
 .sky__star.-seven {
     right: -50px;
-    bottom: -250px;
+    bottom: -60px;
 }
 
 @media screen and (max-width: 1050px) {
+    .sky__eclipse {
+        height: 250px;
+        width: 250px;
+        padding-top: 65px;
+    }
+
     .sky__star.-first {
         left: -40px;
     }
 
+    .sky__star.-second {
+        right: -265px;
+    }
+
+    .sky__star.-third {
+        bottom: -30px;
+    }
+
     .sky__star.-fourth {
-        right: -325px;
-        bottom: 20px;
+        right: -260px;
+        bottom: 220px;
+    }
+
+    .sky__star.-fifth {
+        bottom: -25px;
+    }
+
+    .sky__star.-seven {
+        bottom: -20px;
     }
 }

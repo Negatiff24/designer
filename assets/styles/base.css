@@ -3,7 +3,7 @@
     src: url('../fonts/MontserratAlternates-Regular.ttf');
 }
 
-body, h1, h2, h3, h4, p, ul, ol, li {
+body, h1, h2, h3, h4, p, ul, ol, li, button {
     margin: 0;
     font-family: "Montserrat Alternates";
 }
